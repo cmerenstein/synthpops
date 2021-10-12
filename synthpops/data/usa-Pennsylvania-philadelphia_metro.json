@@ -23,26 +23,23 @@
     "The supported mapping of student ages to school types is currently a strict 1-1 mapping. This creates a description where different school types are not overlapping in the grades of students taught. However, school types in Washington state are more complex than this and there are some schools covering a different range of grades than presented here (i.e., K-8 or 6-12 vs K-5, 6-8, 9-12, etc.). The data on schools and school types represent a majority (85%+) of the students enrolled in the county for the school year 2019-2020.",
     "Data on long term care facility resident sizes were shared by Public Health - Seattle King County and presented here in aggregate form."
   ],
-  "parent": "usa-Washington.json",
+  "parent": "usa-Pennsylvania.json",
   "population_age_distributions": [{
-    "num_bins": 16,
+    "num_bins": 13,
     "distribution": [
-      [0, 4, 0.0605381173520116],
-      [5, 9, 0.060734396722304],
-      [10, 14, 0.0566101569658667],
-      [15, 19, 0.0557345272362203],
-      [20, 24, 0.0612425535030782],
-      [25, 29, 0.084312667951918],
-      [30, 34, 0.0848554024455934],
-      [35, 39, 0.0764781040023024],
-      [40, 44, 0.0697266360597407],
-      [45, 49, 0.0701378396455174],
-      [50, 54, 0.0681980977511943],
-      [55, 59, 0.0653691662398127],
-      [60, 64, 0.0591156851624661],
-      [65, 69, 0.0453212116979792],
-      [70, 74, 0.0312168948061224],
-      [75, 100, 0.0504085424578719]
+      [0, 4, 0.065],
+      [5, 9, 0.074],
+      [10, 14, 0.074],
+      [15, 19, 0.073],
+      [20, 24, 0.077],
+      [25, 34, 0.148],
+      [35, 44, 0.145],
+      [45, 54, 0.12],
+      [55, 59, 0.044],
+      [60, 64, 0.038],
+      [65, 74, 0.071],
+      [75, 84, 0.052],
+      [85, 100, 0.018]
     ]
   }, {
     "num_bins": 18,
